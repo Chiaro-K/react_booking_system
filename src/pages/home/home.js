@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Nav from '../../components/nav/nav';
+import BodyNav from '../../components/body-nav/body-nav';
 import './home.scss';
 import { withRouter } from 'react-router-dom';
 import Paris from '../../assets/images/paris.jpg';
@@ -15,6 +16,7 @@ class Home extends Component {
         return (
             <main>
                 <Nav />
+                
                 <div id="carouselExampleIndicators" className="carousel slide" data-ride="carousel">
                     <ol className="carousel-indicators">
                         <li data-target="#carouselExampleIndicators" data-slide-to="0" className="active"></li>
