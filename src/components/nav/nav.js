@@ -5,11 +5,11 @@ import './nav.scss';
 
 const Nav = () => {
     return (
-        <nav className="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <nav id="main-nav" className="navbar navbar-expand-lg navbar-light bg-light fixed-top">
             <div className="container">
-                <NavLink to="/home" className="nav-item nav-link">HOME</NavLink>
-                <NavLink to="#" className="nav-item nav-link">FAQS</NavLink>
-                <NavLink to="#" className="nav-item nav-link">CONTACT</NavLink>
+                <NavLink to="/home" className="nav-item nav-link border-right">HOME</NavLink>
+                <NavLink to="#" className="nav-item nav-link border-right">FAQS</NavLink>
+                <NavLink to="#" className="nav-item nav-link border-right">CONTACT</NavLink>
                 <span style={{cursor: 'pointer'}} to="#" className="nav-item dropdown">
                     <a className="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown"
                         aria-haspopup="true" aria-expanded="false">USD</a>

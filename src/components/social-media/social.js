@@ -9,7 +9,7 @@ import EmailIcon from '@material-ui/icons/Email';
 
 const Social = () => {
     return (
-        <div id="social" className="navbar-collapse" id="navbarResponsive">
+        <div id="social" className="navbar-collapse">
             <ul className="navbar-nav ml-auto">
                 <li className="nav-item active">
                     <a className="nav-link" href="#"><FacebookIcon/></a>

@@ -17,7 +17,7 @@ class Home extends Component {
             <Fragment>
                 <Nav />
                 <div class="clear"></div>
-                <main style={{marginTop: '4%'}}>
+                <main style={{marginTop: '3%'}}>
                     <article>
                         <BodyNav/>
                     </article>

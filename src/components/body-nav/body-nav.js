@@ -34,7 +34,7 @@ const BodyNav = () => {
                             <NavLink to="/home" className="nav-link"><span><CreateIcon/></span>BLOG</NavLink>
                         </li>
                         <li class="nav-item">
-                            <NavLink to="/home" className="nav-link" style={{ marginRight: '0pt' }}><span><PhoneIcon/></span>1800 105 2541</NavLink>
+                            <NavLink to="/home" className="nav-link" style={{ marginRight: '-5pt' }}><span><PhoneIcon/></span>1800 105 2541</NavLink>
                         </li>
                     </ul>
                 </div>
