@@ -9,25 +9,25 @@ import EmailIcon from '@material-ui/icons/Email';
 
 const Social = () => {
     return (
-        <div id="social" class="navbar-collapse" id="navbarResponsive">
-            <ul class="navbar-nav ml-auto">
-                <li class="nav-item active">
-                    <a class="nav-link" href="#"><FacebookIcon/></a>
+        <div id="social" className="navbar-collapse" id="navbarResponsive">
+            <ul className="navbar-nav ml-auto">
+                <li className="nav-item active">
+                    <a className="nav-link" href="#"><FacebookIcon/></a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#"><TwitterIcon/></a>
+                <li className="nav-item">
+                    <a className="nav-link" href="#"><TwitterIcon/></a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#"><PinterestIcon/></a>
+                <li className="nav-item">
+                    <a className="nav-link" href="#"><PinterestIcon/></a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#"><InstagramIcon/></a>
+                <li className="nav-item">
+                    <a className="nav-link" href="#"><InstagramIcon/></a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#"><PhoneIcon/></a>
+                <li className="nav-item">
+                    <a className="nav-link" href="#"><PhoneIcon/></a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#"><EmailIcon/></a>
+                <li className="nav-item">
+                    <a className="nav-link" href="#"><EmailIcon/></a>
                 </li>
             </ul>
         </div>
