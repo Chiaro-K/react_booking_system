@@ -8,7 +8,7 @@ function App() {
   return (
     <div className="App">
         <BrowserRouter>
-          <div>
+          <Fragment>
             <Switch>
               <Route exact path="/" render={() =>
                 <Redirect to="/home"/>
@@ -16,7 +16,7 @@ function App() {
               <Route path="/home" component={Home}/>
               <Route component={Error}/>
             </Switch>
-          </div>
+          </Fragment>
         </BrowserRouter>
       </div>
   );

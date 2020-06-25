@@ -7,7 +7,7 @@ const Nav = () => {
     return (
         <nav className="navbar navbar-expand-lg navbar-light bg-light fixed-top">
             <div className="container">
-                <NavLink to="/home" className="nav-item nav-link active">HOME</NavLink>
+                <NavLink to="/home" className="nav-item nav-link">HOME</NavLink>
                 <NavLink to="#" className="nav-item nav-link">FAQS</NavLink>
                 <NavLink to="#" className="nav-item nav-link">CONTACT</NavLink>
                 <span style={{cursor: 'pointer'}} to="#" className="nav-item dropdown">

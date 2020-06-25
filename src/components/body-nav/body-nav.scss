@@ -1,3 +1,18 @@
 .bg-light {
-    background-color: transparent!important;
+    background-color: transparent !important;
+}
+
+.navbar-brand {
+    font-size: 3rem;
+    text-transform: lowercase;
+    color: #ffffff !important;
+    font-weight: 700;
+}
+#body-nav .navbar-nav {
+    & .nav-link{
+        margin-right: 60px;
+    }
+    & .active > .nav-link {
+        border: 1px solid #ffffff;
+    }
 }
