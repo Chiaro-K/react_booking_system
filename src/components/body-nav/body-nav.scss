@@ -10,9 +10,15 @@
 }
 #body-nav .navbar-nav {
     & .nav-link{
-        margin-right: 60px;
+        margin-right: 30px;
+        & .MuiSvgIcon-root{
+            font-size: 1.2rem;
+            margin-bottom: 3pt;
+            margin-right: 5pt;
+        }
     }
     & .active > .nav-link {
         border: 1px solid #ffffff;
+        padding: 10px 20px 10px 20px;
     }
 }
