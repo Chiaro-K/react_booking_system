@@ -16,7 +16,7 @@ class Home extends Component {
                     <header>
                         <BodyNav />
                     </header>
-                    <div class="clear"></div>
+                    <div className="clear"></div>
                     <section className="booking">
                         <BookingFrame />
                     </section>

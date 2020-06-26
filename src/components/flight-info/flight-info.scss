@@ -1,0 +1,80 @@
+$red: #842d2f;
+@mixin all-red {
+  border: 1px solid $red;
+  background-color: $red;
+  color: #ffffff;
+}
+
+#flight-info {
+  header {
+    margin-bottom: 30pt;
+  }
+
+  text-align: left;
+  width: 100%;
+  height: 350pt;
+  background-color: #ffffffeb;
+  padding: 35pt;
+  h3,
+  label {
+    color: #000;
+    text-transform: uppercase;
+    display: inline;
+  }
+
+  .right {
+    display: initial;
+    float: right;
+    & .btn {
+      border: 1px solid #000;
+      border-radius: 0em;
+      background-color: #ffffffeb;
+      border-color: #88888882;
+      &.active {
+        @include all-red;
+      }
+    }
+  }
+
+  .flex-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 17pt;
+    & label {
+      color: #000000b5;
+      font-weight: 500;
+      margin-bottom: 10pt !important;
+    }
+
+    & .form-group {
+      & input {
+        height: calc(2.1em + 0.75rem + 2px);
+        margin-top: 10pt;
+        background-color: #ffffff8c;
+      }
+      &.wide {
+        width: 48%;
+      }
+
+      &.short {
+        width: 30%;
+        & input {
+          text-transform: uppercase;
+        }
+      }
+    }
+    & .btn-submit {
+      padding: 7pt 20pt;
+      @include all-red;
+      text-transform: uppercase;
+      font-weight: 500;
+      letter-spacing: 2px;
+    }
+    & div a {
+      color: $red;
+      font-style: italic;
+      font-weight: 500;
+      border-bottom: 2px solid $red
+    }
+  }
+}
