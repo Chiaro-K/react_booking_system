@@ -15,6 +15,10 @@ $red: #842d2f;
   height: 350pt;
   background-color: #ffffffeb;
   padding: 35pt;
+  h3{
+    font-weight: 600;
+    letter-spacing: 2pt;
+  }
   h3,
   label {
     color: #000;
@@ -41,8 +45,8 @@ $red: #842d2f;
     justify-content: space-between;
     margin-bottom: 17pt;
     & label {
-      color: #000000b5;
-      font-weight: 500;
+      color: #333333b5;
+      font-weight: 600;
       margin-bottom: 10pt !important;
     }
 

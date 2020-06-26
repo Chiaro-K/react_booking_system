@@ -19,7 +19,7 @@ const BodyNav = () => {
                 <div className="collapse navbar-collapse" id="navbarResponsive">
                     <ul className="navbar-nav ml-auto">
                         <li className="nav-item active">
-                            <NavLink to="/home" className="nav-link"><span><HomeIcon/></span>HOME</NavLink>
+                            <NavLink to="/home" className="nav-link active"><span><HomeIcon/></span>HOME</NavLink>
                         </li>
                         <li className="nav-item">
                             <NavLink to="/home" className="nav-link"><span><FlightIcon/></span>FLIGHTS</NavLink>
@@ -34,7 +34,7 @@ const BodyNav = () => {
                             <NavLink to="/home" className="nav-link"><span><CreateIcon/></span>BLOG</NavLink>
                         </li>
                         <li className="nav-item">
-                            <NavLink to="/home" className="nav-link" style={{ marginRight: '-5pt' }}><span><PhoneIcon/></span>1800 105 2541</NavLink>
+                            <NavLink to="/home" className="nav-link nav-tel"><span><PhoneIcon/></span>1800 105 2541</NavLink>
                         </li>
                     </ul>
                 </div>

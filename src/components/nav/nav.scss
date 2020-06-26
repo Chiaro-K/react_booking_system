@@ -10,7 +10,10 @@
 #main-nav {
     padding: 0;
     font-weight: 600;
-    @include light-border(bottom)
+    @include light-border(bottom);
+    & .nav-item:hover{
+        background-color: #ffffff2e;
+    }
 }
 .border-right {
     @include light-border(right)
@@ -26,3 +29,4 @@
         }
     }
 }
+

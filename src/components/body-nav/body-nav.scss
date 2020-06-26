@@ -12,14 +12,24 @@
     & .nav-link{
         margin-right: 15px;
         font-weight: 600;
+        padding: 10px 20px 10px 20px;
         & .MuiSvgIcon-root{
             font-size: 1.2rem;
             margin-bottom: 3pt;
             margin-right: 5pt;
         }
+    } a:hover{
+        background-color: #ffffff2e;
     }
+    
     & .active > .nav-link {
         border: 1px solid #ffffff73;
-        padding: 10px 20px 10px 20px;
+        
+    }
+
+    & .nav-tel{
+        font-weight: 200;
+        margin-right: -5pt;
+        font-family: 'Oleo Script', cursive;
     }
 }
