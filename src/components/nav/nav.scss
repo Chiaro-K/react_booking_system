@@ -15,3 +15,14 @@
 .border-right {
     @include light-border(right)
 }
+
+.dropdown-menu {
+    background-color: #ffffff21;
+    & .dropdown-item{
+        color: #ffffffff;
+        font-weight: 600;
+        &:hover{
+            background-color: #ffffff4a;
+        }
+    }
+}

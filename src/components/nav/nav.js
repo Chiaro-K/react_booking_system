@@ -14,9 +14,9 @@ const Nav = () => {
                     <a className="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown"
                         aria-haspopup="true" aria-expanded="false">USD</a>
                     <div className="dropdown-menu dropdown-primary" aria-labelledby="navbarDropdownMenuLink">
-                        <a className="dropdown-item" href="#">Option 2</a>
-                        <a className="dropdown-item" href="#">Option 3</a>
-                        <a className="dropdown-item" href="#">Option 4</a>
+                        <a className="dropdown-item" href="#">ZAR</a>
+                        <a className="dropdown-item" href="#">GBP</a>
+                        <a className="dropdown-item" href="#">EUR</a>
                     </div>
                 </span>
                
