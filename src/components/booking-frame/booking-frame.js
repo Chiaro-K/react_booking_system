@@ -4,8 +4,7 @@ import FlightIcon from '@material-ui/icons/Flight';
 import ApartmentIcon from '@material-ui/icons/Apartment';
 import BeachAccessIcon from '@material-ui/icons/BeachAccess';
 
-class BookingFrame extends Component {
-    render() {
+const BookingFrame = () => {
         return (
             <Fragment>
                 <nav>
@@ -24,6 +23,5 @@ class BookingFrame extends Component {
                 </div>
             </Fragment>
         );
-    }
 }
 export default BookingFrame;

@@ -6,6 +6,7 @@ $gray: #2d2d2deb;
   border-bottom: 4px solid $red;
 
   & .nav-link {
+    margin-top: -3pt;
     text-transform: capitalize;
     background-color: $gray;
     margin-right: 2px;
