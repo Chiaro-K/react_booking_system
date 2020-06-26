@@ -12,9 +12,37 @@
 }
 
 .booking {
+  transition: 0.3s ease-in-out;
   width: 630pt;
   color: #ffffff;
   position: fixed;
   top: 28%;
   left: 10.5%;
+}
+
+@media only screen and (max-width: 994px){
+  .booking{
+      width: 470pt;
+  }
+}
+
+@media only screen and (max-width: 705px){
+  .booking{
+      width: 370pt;
+      transition: 0.3s ease-in-out;
+  }
+}
+
+@media only screen and (max-width: 560px){
+  .booking{
+      width: 260pt;
+      transition: 0.3s ease-in-out;
+  }
+}
+
+@media only screen and (max-width: 400px){
+  .booking{
+      width: 220pt;
+      transition: 0.3s ease-in-out;
+  }
 }

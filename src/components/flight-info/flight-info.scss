@@ -15,7 +15,7 @@ $red: #842d2f;
   height: 350pt;
   background-color: #ffffffeb;
   padding: 35pt;
-  h3{
+  h3 {
     font-weight: 600;
     letter-spacing: 2pt;
   }
@@ -78,7 +78,27 @@ $red: #842d2f;
       color: $red;
       font-style: italic;
       font-weight: 500;
-      border-bottom: 2px solid $red
+      border-bottom: 2px solid $red;
+    }
+  }
+}
+@media only screen and (max-width: 705px) {
+  #flight-info {
+    & h3 {
+      font-weight: 500;
+      letter-spacing: 0pt;
+      font-size: 1.2rem;
+      transition: 0.3s ease-in-out;
+    }
+    & .right .btn {
+      padding: 0.1rem 0.3rem;
+    }
+
+    .flex-container {
+      & .btn-submit {
+        letter-spacing: 0;
+        padding: 3pt 10pt;
+      }
     }
   }
 }

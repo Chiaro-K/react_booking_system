@@ -8,22 +8,21 @@ const Nav = () => {
         <nav id="main-nav" className="navbar navbar-expand-lg navbar-light bg-light fixed-top">
             <div className="container">
                 <NavLink to="/home" className="nav-item nav-link border-right">HOME</NavLink>
-                <NavLink to="#" className="nav-item nav-link border-right">FAQS</NavLink>
-                <NavLink to="#" className="nav-item nav-link border-right">CONTACT</NavLink>
-                <span style={{cursor: 'pointer'}} to="#" className="nav-item dropdown">
-                    <a className="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown"
+                <NavLink to="/" className="nav-item nav-link border-right">FAQS</NavLink>
+                <NavLink to="/" className="nav-item nav-link border-right">CONTACT</NavLink>
+                <span style={{cursor: 'pointer'}} to="/" className="nav-item dropdown">
+                    <a href="/" className="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown"
                         aria-haspopup="true" aria-expanded="false">USD</a>
                     <div className="dropdown-menu dropdown-primary" aria-labelledby="navbarDropdownMenuLink">
-                        <a className="dropdown-item" href="#">ZAR</a>
-                        <a className="dropdown-item" href="#">GBP</a>
-                        <a className="dropdown-item" href="#">EUR</a>
+                        <a className="dropdown-item" href="/">ZAR</a>
+                        <a className="dropdown-item" href="/">GBP</a>
+                        <a className="dropdown-item" href="/">EUR</a>
                     </div>
                 </span>
                
                 <Social/>
             </div>
         </nav>
-
     );
 };
 export default Nav;

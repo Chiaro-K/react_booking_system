@@ -1,3 +1,10 @@
 .navbar-expand-lg .navbar-nav .nav-link{
     margin-left: 20pt;
 }
+
+@media only screen and (max-width: 994px){
+    #social{
+        display: none !important;
+        transition: 0.3s ease-in-out;
+    }
+}
