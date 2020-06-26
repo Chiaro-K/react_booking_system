@@ -1,0 +1,32 @@
+$red: #842d2f;
+$gray: #2d2d2deb;
+
+.nav-tabs {
+  height: 55px;
+  border-bottom: 4px solid $red;
+
+  & .nav-link {
+    text-transform: capitalize;
+    background-color: $gray;
+    margin-right: 2px;
+    border-radius: 0em;
+    padding: 13px 30px;
+    & .save{
+      background-color: #ce4a4d;
+      padding: 1pt 5pt;
+      border-radius: 2pt;
+      margin-left: 0.5em;
+      font-size: 8pt;
+      font-weight: 600;
+    }
+  }
+  & .nav-link.active {
+    background-color: $red;
+    border: none;
+  }
+}
+
+.booking-icon svg {
+  font-size: 1.3rem;
+  margin-bottom: 3pt;
+}

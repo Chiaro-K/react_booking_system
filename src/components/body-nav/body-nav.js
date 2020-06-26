@@ -10,30 +10,30 @@ import PhoneIcon from '@material-ui/icons/Phone';
 
 const BodyNav = () => {
     return (
-        <nav id="body-nav" class="navbar navbar-expand-lg navbar-light bg-light">
-            <div class="container">
-                <a class="navbar-brand" href="#">canvas</a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
+        <nav id="body-nav" className="navbar navbar-expand-lg navbar-light bg-light">
+            <div className="container">
+                <a className="navbar-brand" href="#">canvas</a>
+                <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                    <span className="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse" id="navbarResponsive">
-                    <ul class="navbar-nav ml-auto">
-                        <li class="nav-item active">
+                <div className="collapse navbar-collapse" id="navbarResponsive">
+                    <ul className="navbar-nav ml-auto">
+                        <li className="nav-item active">
                             <NavLink to="/home" className="nav-link"><span><HomeIcon/></span>HOME</NavLink>
                         </li>
-                        <li class="nav-item">
+                        <li className="nav-item">
                             <NavLink to="/home" className="nav-link"><span><FlightIcon/></span>FLIGHTS</NavLink>
                         </li>
-                        <li class="nav-item">
+                        <li className="nav-item">
                             <NavLink to="/home" className="nav-link"><span><ApartmentIcon/></span>HOTELS</NavLink>
                         </li>
-                        <li class="nav-item">
+                        <li className="nav-item">
                             <NavLink to="/home" className="nav-link"><span><BeachAccessIcon/></span>HOLIDAYS</NavLink>
                         </li>
-                        <li class="nav-item">
+                        <li className="nav-item">
                             <NavLink to="/home" className="nav-link"><span><CreateIcon/></span>BLOG</NavLink>
                         </li>
-                        <li class="nav-item">
+                        <li className="nav-item">
                             <NavLink to="/home" className="nav-link" style={{ marginRight: '-5pt' }}><span><PhoneIcon/></span>1800 105 2541</NavLink>
                         </li>
                     </ul>
