@@ -14,7 +14,6 @@ class BookingFrame extends Component {
     }
     handleClick = () => {
         this.setState({ flightType: +!this.state.flightType });
-        console.log(this.state.flightType);
     }
     render() {
 
